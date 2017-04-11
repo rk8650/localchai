@@ -1,0 +1,2 @@
+1. app was not getting load due to async defer written in js loading parameter.
+2. for now don;t use async defer if you dont have good knowledge about it.
