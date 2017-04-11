@@ -2,6 +2,9 @@ package main.java.beans;
 
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by rahul on 4/2/2017.
  */
@@ -12,7 +15,16 @@ public class ShopDetails {
     private String shopAddress;
 //    private String itemName;
 //    private double itemPrice;
-    private Item item;
+    List<ItemDetails> itemDetailsList = new ArrayList<ItemDetails>();
+
+    public List<ItemDetails> getItemDetailsList() {
+        return itemDetailsList;
+    }
+
+    public void setItemDetailsList(List<ItemDetails> itemDetailsList) {
+        this.itemDetailsList = itemDetailsList;
+    }
+
     public String getShopId() {
         return shopId;
     }
@@ -51,5 +63,5 @@ public class ShopDetails {
 //
 //    public void setItemPrice(double itemPrice) {
 //        this.itemPrice = itemPrice;
-//    }
+//
 }
