@@ -1,0 +1,1 @@
+alter table shopdetails add constraint fk_item foreign key(itemid) references itemdetails(itemid);
