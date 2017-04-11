@@ -9,8 +9,20 @@
 <html>
   <head>
     <title>$Title$</title>
+
+    <script src="${pageContext.request.contextPath}/js/common/angular.js" ></script>
+    <script src="${pageContext.request.contextPath}/js/common/angular-route.js" ></script>
+    <script src="${pageContext.request.contextPath}/js/localchai/localchai.js" ></script>
+    <script src="${pageContext.request.contextPath}/js/localchai/controllers/localchai.controller.js"></script>
+    <script src="${pageContext.request.contextPath}/js/localchai/controllers/modules/groceryHomeCtrl.js" ></script>
+    <script src="${pageContext.request.contextPath}/js/localchai/controllers/modules/localGroceryCtrl.js" ></script>
+    <script src="${pageContext.request.contextPath}/js/localchai/controllers/modules/orderGroceryCtrl.js" ></script>
+    <script src="${pageContext.request.contextPath}/js/localchai/directive/localchai.directive.js" ></script>
+    <script src="${pageContext.request.contextPath}/js/localchai/services/localchai.service.js" ></script>
   </head>
   <body>
-  $END$
+    <div ng-app="localchai" ng-controller="localchaiCtrl">
+      <div ng-view></div>
+    </div>
   </body>
 </html>
