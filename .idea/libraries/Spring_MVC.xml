@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Spring MVC" type="spring-mvc">
+    <CLASSES>
+      <root url="jar://R:/java/spring 3.0.5 jars/com.springsource.org.aopalliance-1.0.0.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.aop-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.aop-sources-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.asm-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.aspects-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.beans-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.context-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.context.support-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.core-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.expression-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.jdbc-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.jms-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.orm-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.oxm-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.transaction-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.web-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.web.portlet-3.0.5.RELEASE.jar!/" />
+      <root url="jar://R:/java/spring 3.0.5 jars/org.springframework.web.servlet-3.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
