@@ -1,2 +1,14 @@
 1. app was not getting load due to async defer written in js loading parameter.
 2. for now don;t use async defer if you dont have good knowledge about it.
+
+sass setup
+----------------------------------
+1. install sass by command gem install sass for that you need to install ruby.
+2. gem install compass
+3. compass init-->config.rb path setup
+4. compass compile
+5. compass watch
+
+refer this:- http://www.hongkiat.com/blog/saas-compass/
+
+

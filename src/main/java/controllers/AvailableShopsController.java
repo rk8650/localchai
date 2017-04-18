@@ -5,6 +5,7 @@ import main.java.dao.DataBaseQuery;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,11 +16,11 @@ import java.util.List;
 @Controller
 public class AvailableShopsController {
     DataBaseQuery dbq;
-    @RequestMapping(value = "/groceryhome.json", method = RequestMethod.POST)
-    public ShopDetails getAvailableShops(ShopDetails shopDetails, ItemDetails itemDetails)throws Exception{
-        List<Object> list=new ArrayList<Object>();
-        //list=dbq.getAvailableShops();
-        //System.out.printl n(list);
-        return shopDetails;
+    @RequestMapping(value = "/groceryHome.json", method = RequestMethod.POST)
+    @ResponseBody
+    public List<ShopDetails> getAvailableShops()throws Exception{
+        List<ShopDetails> shopList=new ArrayList<ShopDetails>();
+        shopList=dbq.getAvailableShops();
+        return shopList;
     }
 }
