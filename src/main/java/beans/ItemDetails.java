@@ -9,7 +9,7 @@ public class ItemDetails {
     private String itemPrice;
     private String itemQuantity;
     private String itemShopId;
-    private ShopDetails shopDetails;
+    //private ShopDetails shopDetails;
 
     public String getItemShopId() {
         return itemShopId;
