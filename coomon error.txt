@@ -11,4 +11,7 @@ sass setup
 
 refer this:- http://www.hongkiat.com/blog/saas-compass/
 
-
+java issue:-
+---------------------------------------
+1. class not found exception oracle.jdbc.driver.oracledriver --> put ojdbc14 jar into lib folder(C:\oraclexe\app\oracle\product\10.2.0\server\jdbc\lib)
+2.

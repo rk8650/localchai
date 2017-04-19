@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +14,7 @@ import java.util.List;
  */
 @Controller
 public class AvailableShopsController {
-    DataBaseQuery dbq;
+    DataBaseQuery dbq=new DataBaseQuery();
     @RequestMapping(value = "/groceryhome.json", method = RequestMethod.POST)
     @ResponseBody
     public List<ShopDetails> getAvailableShops()throws Exception{

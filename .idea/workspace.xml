@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e88d70a6-c0ec-4db0-b578-b236b019f3a3" name="Default" comment="rk8650-local-chai-v1: new repository all files">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coomon error.txt" afterPath="$PROJECT_DIR$/coomon error.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/beans/ItemDetails.java" afterPath="$PROJECT_DIR$/src/main/java/beans/ItemDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/DataBaseConnect.java" afterPath="$PROJECT_DIR$/src/main/java/dao/DataBaseConnect.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java" afterPath="$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java" />
+    </list>
+    <list id="0e0e9e33-e874-44d7-aa37-8c9db96e17a4" name="unused files" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/common/ie.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/common/print.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/common/screen.css" afterPath="" />
@@ -25,16 +34,17 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/sass/config.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/sass/layout/_local_chai_layout.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/sass/localchai.scss" afterPath="" />
+    </list>
+    <list id="4c03a9d5-4558-44ed-a17f-bbac42285f44" name="out folder" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/beans/ShopDetails.class" afterPath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/beans/ShopDetails.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/controllers/AvailableShopsController.class" afterPath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/controllers/AvailableShopsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/dao/DataBaseConnect.class" afterPath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/dao/DataBaseConnect.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/dao/DataBaseQuery.class" afterPath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/dao/DataBaseQuery.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/beans/ShopDetails.class" afterPath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/beans/ShopDetails.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/controllers/AvailableShopsController.class" afterPath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/controllers/AvailableShopsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/dao/DataBaseConnect.class" afterPath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/dao/DataBaseConnect.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/dao/DataBaseQuery.class" afterPath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/dao/DataBaseQuery.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
     </list>
     <ignored path="LOCAL_CHAI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,28 +73,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AvailableShopsController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AvailableShopsController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6415094">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#754#767#0" expanded="true" />
+                <element signature="e#773#786#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataBaseQuery.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DataBaseQuery.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.43362832">
+              <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
               <folding>
-                <marker date="1492626088688" expanded="true" signature="633:658" placeholder="SELECT * fro... SHOPDETAILS" />
-                <marker date="1492626088688" expanded="true" signature="729:754" placeholder="SELECT * fro... ITEMDETAILS" />
+                <element signature="e#517#530#0" expanded="true" />
+                <element signature="e#582#595#0" expanded="true" />
+                <marker date="1492630397668" expanded="true" signature="686:711" placeholder="SELECT * fro... SHOPDETAILS" />
+                <marker date="1492630397668" expanded="true" signature="788:813" placeholder="SELECT * fro... ITEMDETAILS" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandlerMethodInvoker.class" pinned="false" current-in-tab="false">
+        <entry file="jar://R:/java/spring 3.0.5 jars/org.springframework.web-3.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.5555553">
+              <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemDetails.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beans/ItemDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#351#352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopDetails.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/beans/ShopDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#706#707#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataBaseConnect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/DataBaseConnect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OracleDriver.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/ojdbc14.jar!/oracle/jdbc/driver/OracleDriver.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.851852">
+              <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,7 +198,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/sass/layout/_local_chai_layout.scss" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/localchai.css" />
         <option value="$PROJECT_DIR$/src/main/java/beans/CustomerRegistration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/DataBaseConnect.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/DataBaseAccess.java" />
         <option value="$PROJECT_DIR$/web/js/localchai/directive/localchai.directive.js" />
         <option value="$PROJECT_DIR$/web/js/localchai/services/localchai.service.js" />
@@ -146,16 +211,17 @@
         <option value="$PROJECT_DIR$/web/js/localchai/controllers/localchai.controller.js" />
         <option value="$PROJECT_DIR$/web/js/localchai/controllers/modules/groceryHomeCtrl.js" />
         <option value="$PROJECT_DIR$/web/js/localchai/localchai.js" />
-        <option value="$PROJECT_DIR$/src/main/java/beans/ItemDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/ShopDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/localchai/partials/localGrocery.html" />
-        <option value="$PROJECT_DIR$/coomon error.txt" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gruntfile.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/localchai/localchai.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java" />
+        <option value="$PROJECT_DIR$/coomon error.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/DataBaseConnect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/beans/ItemDetails.java" />
       </list>
     </option>
   </component>
@@ -227,30 +293,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LOCAL_CHAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localchai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LOCAL_CHAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localchai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -260,7 +302,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/ojdbc14.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -270,14 +312,15 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rahul\localchai\lib" />
+      <recent name="R:\LOCALCHAI\src\main\webapp\js\common" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="R:\LOCALCHAI\web" />
       <recent name="R:\LOCALCHAI\src\main\webapp\sass" />
       <recent name="R:\LOCALCHAI\src\main\webapp\sass\common" />
       <recent name="R:\LOCALCHAI\src\main\webapp" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="R:\LOCALCHAI\src\main\webapp\js\common" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.local-chai">
@@ -867,6 +910,8 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e88d70a6-c0ec-4db0-b578-b236b019f3a3" name="Default" comment="" />
+      <changelist id="0e0e9e33-e874-44d7-aa37-8c9db96e17a4" name="unused files" comment="" />
+      <changelist id="4c03a9d5-4558-44ed-a17f-bbac42285f44" name="out folder" comment="" />
       <created>1487914870922</created>
       <option name="number" value="Default" />
       <updated>1487914870922</updated>
@@ -885,7 +930,7 @@
       <workItem from="1492160330129" duration="1523000" />
       <workItem from="1492359307837" duration="10262000" />
       <workItem from="1492539214678" duration="1164000" />
-      <workItem from="1492626153188" duration="859000" />
+      <workItem from="1492626153188" duration="5593000" />
     </task>
     <task id="LOCAL-00001" summary="rk8650-local-chai-v1: new repository all files">
       <created>1491943575948</created>
@@ -893,11 +938,17 @@
       <option name="project" value="LOCAL" />
       <updated>1491943575948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="rk8650-local-chai-v1: new repository all files">
+      <created>1492627121619</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1492627121619</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102567000" />
+    <option name="totallyTimeSpent" value="107301000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -920,7 +971,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3420622" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42553192" sideWeight="0.4969743" order="12" side_tool="false" content_ui="tabs" />
@@ -933,7 +984,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.75869894" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39934534" sideWeight="0.75869894" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -994,13 +1045,43 @@
           <url>file://$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java</url>
           <line>21</line>
           <properties />
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/DataBaseConnect.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="17" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1014,8 +1095,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
           <folding>
-            <marker date="1492626088688" expanded="true" signature="633:658" placeholder="SELECT * fro... SHOPDETAILS" />
-            <marker date="1492626088688" expanded="true" signature="729:754" placeholder="SELECT * fro... ITEMDETAILS" />
+            <element signature="e#517#530#0" expanded="true" />
+            <element signature="e#582#595#0" expanded="true" />
+            <marker date="1492630397668" expanded="true" signature="686:711" placeholder="SELECT * fro... SHOPDETAILS" />
+            <marker date="1492630397668" expanded="true" signature="788:813" placeholder="SELECT * fro... ITEMDETAILS" />
           </folding>
         </state>
       </provider>
@@ -1060,13 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6997389">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/DataBaseConnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.044386424">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1210,27 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beans/ItemDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38765007">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beans/ShopDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32933104">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coomon error.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5755208">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1284,32 +1339,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/coomon error.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7120419">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ojdbc14.jar!/oracle/jdbc/driver/OracleDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.851852">
+          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/ojdbc14.jar!/oracle/jdbc/driver/OracleResultSetImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.851852">
+          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#773#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/DataBaseConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beans/ItemDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/beans/ShopDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#706#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://R:/java/spring 3.0.5 jars/org.springframework.web-3.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39423078">
-          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+        <state vertical-scroll-proportion="-4.5555553">
+          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.43362832">
+          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
           <folding>
-            <marker date="1492626088688" expanded="true" signature="633:658" placeholder="SELECT * fro... SHOPDETAILS" />
-            <marker date="1492626088688" expanded="true" signature="729:754" placeholder="SELECT * fro... ITEMDETAILS" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6415094">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#754#767#0" expanded="true" />
+            <element signature="e#517#530#0" expanded="true" />
+            <element signature="e#582#595#0" expanded="true" />
+            <marker date="1492630397668" expanded="true" signature="686:711" placeholder="SELECT * fro... SHOPDETAILS" />
+            <marker date="1492630397668" expanded="true" signature="788:813" placeholder="SELECT * fro... ITEMDETAILS" />
           </folding>
         </state>
       </provider>
@@ -1380,7 +1489,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Spring MVC</last-edited>
+          <last-edited>Spring-4.3.6.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

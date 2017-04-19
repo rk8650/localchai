@@ -2,6 +2,7 @@ package main.java.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
@@ -11,7 +12,7 @@ import java.sql.Statement;
 //import java.sql.*;
 public class DataBaseConnect {
 
-    public static Statement getStatement()
+    public static Statement getStatement()throws SQLException
     {
         Connection con=null;
         Statement st=null;
@@ -24,6 +25,7 @@ public class DataBaseConnect {
         catch(Exception e)
         {
             e.printStackTrace();
+            System.out.println("do handle the exceptions");
         }
         return st;
     }
