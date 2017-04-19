@@ -16,7 +16,7 @@ import java.util.List;
 @Controller
 public class AvailableShopsController {
     DataBaseQuery dbq;
-    @RequestMapping(value = "/groceryHome.json", method = RequestMethod.POST)
+    @RequestMapping(value = "/groceryhome.json", method = RequestMethod.POST)
     @ResponseBody
     public List<ShopDetails> getAvailableShops()throws Exception{
         List<ShopDetails> shopList=new ArrayList<ShopDetails>();

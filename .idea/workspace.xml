@@ -2,46 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e88d70a6-c0ec-4db0-b578-b236b019f3a3" name="Default" comment="rk8650-local-chai-v1: new repository all files">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/sass/.sass-cache/5625c3febcb428c7c27597bba91bd0e9e41e394d/_local_chai_layout.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/sass/.sass-cache/7f22fe4939e157cc4348e91af86f1e172b6a3b6d/ie.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/sass/.sass-cache/7f22fe4939e157cc4348e91af86f1e172b6a3b6d/print.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/sass/.sass-cache/7f22fe4939e157cc4348e91af86f1e172b6a3b6d/screen.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/sass/.sass-cache/8054a067dfb9be78572f3bbd09836f97b651c5a4/localchai.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/sass/.sass-cache/ae712cc5b793b3c7dadfd6a992de0088dc63490d/_local_chai_component.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/sass/.sass-cache/b4dc5ef3282a087fe58bacd7d9b56433752b3ac9/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/sass/.sass-cache/f20dab5b7fb1216f35d8484ebb92bc8dca57139a/_utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gruntfile.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/common/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/common/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/common/screen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/localchai.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/common/angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/common/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/localchai.controller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/modules/localGroceryCtrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/modules/orderGroceryCtrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/modules/paymentGroceryCtrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/directive/localchai.directive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/localchai.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/partials/localGrocery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/partials/orderGrocery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/partials/paymentGrocery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/services/localchai.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/localChaiContainer.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/sass/common/ie.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/sass/common/print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/sass/common/screen.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/sass/config.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/sass/layout/_local_chai_layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/sass/localchai.scss" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/beans/ShopDetails.class" afterPath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/beans/ShopDetails.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/controllers/AvailableShopsController.class" afterPath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/controllers/AvailableShopsController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/dao/DataBaseQuery.class" afterPath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/dao/DataBaseQuery.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/beans/ShopDetails.class" afterPath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/beans/ShopDetails.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/controllers/AvailableShopsController.class" afterPath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/controllers/AvailableShopsController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/dao/DataBaseQuery.class" afterPath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/dao/DataBaseQuery.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coomon error.txt" afterPath="$PROJECT_DIR$/coomon error.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/applicationContext.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/common/ie.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/common/ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/common/print.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/common/print.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/common/screen.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/common/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/localchai.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/localchai.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/localchai.controller.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/localchai.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/modules/localGroceryCtrl.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/modules/localGroceryCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/modules/orderGroceryCtrl.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/modules/orderGroceryCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/modules/paymentGroceryCtrl.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/modules/paymentGroceryCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/directive/localchai.directive.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/localchai/directive/localchai.directive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/localchai.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/localchai/localchai.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/partials/localGrocery.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/localchai/partials/localGrocery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/partials/orderGrocery.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/localchai/partials/orderGrocery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/partials/paymentGrocery.html" afterPath="$PROJECT_DIR$/src/main/webapp/js/localchai/partials/paymentGrocery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/localchai/services/localchai.service.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/localchai/services/localchai.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/localChaiContainer.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/localChaiContainer.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/sass/common/ie.scss" afterPath="$PROJECT_DIR$/src/main/webapp/sass/common/ie.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/sass/common/print.scss" afterPath="$PROJECT_DIR$/src/main/webapp/sass/common/print.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/sass/common/screen.scss" afterPath="$PROJECT_DIR$/src/main/webapp/sass/common/screen.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/sass/config.rb" afterPath="$PROJECT_DIR$/src/main/webapp/sass/config.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/sass/layout/_local_chai_layout.scss" afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_local_chai_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/sass/localchai.scss" afterPath="$PROJECT_DIR$/src/main/webapp/sass/localchai.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
     </list>
     <ignored path="LOCAL_CHAI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,23 +62,16 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AvailableShopsController.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AvailableShopsController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="localchai.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/localchai/localchai.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54867256">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="0.6415094">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#754#767#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,21 +80,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="28" />
               <folding>
-                <marker date="1491941115917" expanded="true" signature="633:658" placeholder="SELECT * fro... SHOPDETAILS" />
-                <marker date="1491941115917" expanded="true" signature="729:754" placeholder="SELECT * fro... ITEMDETAILS" />
+                <marker date="1492626088688" expanded="true" signature="633:658" placeholder="SELECT * fro... SHOPDETAILS" />
+                <marker date="1492626088688" expanded="true" signature="729:754" placeholder="SELECT * fro... ITEMDETAILS" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserLoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/UserLoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -158,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/main/java/beans/CustomerRegistration.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/DataBaseConnect.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/DataBaseAccess.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/web/js/localchai/directive/localchai.directive.js" />
         <option value="$PROJECT_DIR$/web/js/localchai/services/localchai.service.js" />
         <option value="$PROJECT_DIR$/web/js/localchai/controllers/modules/localGroceryCtrl.js" />
@@ -179,6 +154,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gruntfile.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/localchai/localchai.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java" />
       </list>
     </option>
@@ -242,6 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -274,170 +251,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LOCAL_CHAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localchai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LOCAL_CHAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localchai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localchai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LOCAL_CHAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localchai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LOCAL_CHAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localchai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LOCAL_CHAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localchai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LOCAL_CHAI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="localchai" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -1061,6 +885,7 @@
       <workItem from="1492160330129" duration="1523000" />
       <workItem from="1492359307837" duration="10262000" />
       <workItem from="1492539214678" duration="1164000" />
+      <workItem from="1492626153188" duration="859000" />
     </task>
     <task id="LOCAL-00001" summary="rk8650-local-chai-v1: new repository all files">
       <created>1491943575948</created>
@@ -1072,7 +897,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101708000" />
+    <option name="totallyTimeSpent" value="102567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1108,7 +933,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39934534" sideWeight="0.75869894" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.75869894" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1164,10 +989,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1176,6 +1009,25 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+          <folding>
+            <marker date="1492626088688" expanded="true" signature="633:658" placeholder="SELECT * fro... SHOPDETAILS" />
+            <marker date="1492626088688" expanded="true" signature="729:754" placeholder="SELECT * fro... ITEMDETAILS" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/UserLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/sass/common/print.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1222,21 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2972028">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://R:/java/spring 3.0.5 jars/org.springframework.web-3.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3621795">
-          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1338,14 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/localchai/partials/localGrocery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923">
@@ -1395,76 +1224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/localchai/services/localchai.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11663808">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/localchai/partials/orderGrocery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/localchai/partials/paymentGrocery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/localchai/partials/localGrocery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18312387">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/localchai/directive/localchai.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17495711">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/localchai.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/modules/localGroceryCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/modules/orderGroceryCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/localchai/controllers/modules/paymentGroceryCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.087478556">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/localchai/localchai.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5831904">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coomon error.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5755208">
@@ -1486,13 +1245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1500,17 +1252,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/main.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/UserLoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91099477">
-          <caret line="32467" column="5" selection-start-line="32467" selection-start-column="5" selection-end-line="32467" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.1457976">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/UserLoginController.java">
+    <entry file="file://$PROJECT_DIR$/web/js/localchai/localchai.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.5840708">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://R:/java/spring 3.0.5 jars/org.springframework.web-3.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/support/HandlerMethodInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39423078">
+          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1518,27 +1295,22 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="95" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="28" />
           <folding>
-            <marker date="1491941115917" expanded="true" signature="633:658" placeholder="SELECT * fro... SHOPDETAILS" />
-            <marker date="1491941115917" expanded="true" signature="729:754" placeholder="SELECT * fro... ITEMDETAILS" />
+            <marker date="1492626088688" expanded="true" signature="633:658" placeholder="SELECT * fro... SHOPDETAILS" />
+            <marker date="1492626088688" expanded="true" signature="729:754" placeholder="SELECT * fro... ITEMDETAILS" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/localchai/localchai.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54867256">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
+        <state vertical-scroll-proportion="0.6415094">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#754#767#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1601,7 +1373,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
