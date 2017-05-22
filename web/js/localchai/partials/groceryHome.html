@@ -1,10 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    janta rocks
-</body>
-</html>
+    <form id="localChai" name="groceryHome" onsubmit="nextStep(groceryHome);" autocomplete="off">
+        <header>
+            <p>Order Local Grocery</p>
+        </header>
+        <article id="groceryHome">
+            <div>
+                <input type="text" id="locality" ng-model="searchLocalityName" class="input-design" name="localityName" placeholder="Locality Name"/>
+                <ul><li ng-repeat="l in orderGrocery|searchBoxList1:searchLocalityName" ng-bind="l" ng-click="setLocalityName(l)"></li></ul>
+            </div>
+            <div>
+                <input type="text" id="item" class="input-design" ng-model="searchItemName" name="itemName" placeholder="Item Name"/>
+                <ul><li ng-repeat="l in orderGrocery|searchBoxList2:searchItemName" ng-bind="l" ng-click="setItemName(l)"></li></ul>
+            </div>
+            <div>
+                <input type="number" id="quantity" class="input-design" name="quantity" placeholder="Quantity" />
+            </div>
+        </article>
+        <footer>
+            <input type="submit" id="groceryHomeSubmit" value="Available shops" />
+        </footer>
+    </form>

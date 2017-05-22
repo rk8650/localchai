@@ -3,6 +3,7 @@ package main.java.dao;
 import main.java.beans.ItemDetails;
 import main.java.beans.ShopDetails;
 
+import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -18,9 +19,10 @@ public class DataBaseQuery {
     public List<ShopDetails> getAvailableShops()throws SQLException {
         List<ShopDetails> shopList=new ArrayList<ShopDetails>();
         List<ItemDetails> itemList=new ArrayList<ItemDetails>();
+        Connection connection = DataBaseConnect.openConnection();
         try {
-            ResultSet rs1 = DataBaseConnect.getStatement().executeQuery("SELECT * from SHOPDETAILS");
-            ResultSet rs2 = DataBaseConnect.getStatement().executeQuery("SELECT * from ITEMDETAILS");
+            ResultSet rs1 = DataBaseConnect.getStatement(connection).executeQuery("SELECT * from SHOP_DETAILS");
+            ResultSet rs2 = DataBaseConnect.getStatement(connection).executeQuery("SELECT * from ITEM_DETAILS");
 
             while (rs1.next()) {
                 ShopDetails shopDetails = new ShopDetails();
@@ -36,7 +38,7 @@ public class DataBaseQuery {
                 itemDetails.setItemName(rs2.getString(2));
                 itemDetails.setItemPrice(rs2.getString(3));
                 itemDetails.setItemQuantity(rs2.getString(4));
-                //itemDetails.setItemShopId(rs2.getString(5));
+                itemDetails.setItemShopId(rs2.getString(5));
                 itemList.add(itemDetails);
             }
         }
@@ -44,9 +46,13 @@ public class DataBaseQuery {
             e.printStackTrace();
             System.out.println("do handle the exceptions");
         }
-        for(int i=0;i<=shopList.size();i++){
-            for(int j=0;j<=itemList.size();j++){
-                if(shopList.get(i).getShopId()==itemList.get(j).getItemShopId()){
+        finally
+        {
+            DataBaseConnect.closeConnection(connection);
+        }
+        for(int i=0;i<shopList.size();i++){
+            for(int j=0;j<itemList.size();j++){
+                if(shopList.get(i).getShopId().equals(itemList.get(j).getItemShopId())){
                     shopList.get(i).getItemDetailsList().add(itemList.get(j));
                 }
             }

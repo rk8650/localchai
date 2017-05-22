@@ -1,2 +1,6 @@
-@import "component/_local_chai_component";
-@import "layout/_local_chai_layout";
+#localchai{
+  text-align: center;
+  @import "common/localchai-common";
+  @import "component/localchai-component";
+  @import "layout/localchai-layout";
+}

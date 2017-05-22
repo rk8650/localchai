@@ -11,9 +11,22 @@ import java.sql.Statement;
 
 //import java.sql.*;
 public class DataBaseConnect {
-
-    public static Statement getStatement()throws SQLException
+    public static Statement getStatement(Connection con)throws SQLException
     {
+        Statement st=null;
+        try
+        {
+            st=con.createStatement();
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+            System.out.println("do handle the exceptions");
+        }
+        return st;
+    }
+
+    public static Connection openConnection(){
         Connection con=null;
         Statement st=null;
         try
@@ -27,6 +40,13 @@ public class DataBaseConnect {
             e.printStackTrace();
             System.out.println("do handle the exceptions");
         }
-        return st;
+        return con;
+    }
+
+    public static void closeConnection(Connection connection)throws SQLException{
+        if(connection != null)
+        {
+            connection.close();
+        }
     }
 }

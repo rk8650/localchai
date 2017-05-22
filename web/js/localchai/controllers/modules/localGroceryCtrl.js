@@ -3,4 +3,7 @@
  */
 (function () {
     var app=angular.module('localGroceryCtrl',[]);
+    app.controller('localGroceryCtrl',function($scope){
+
+    });
 })();

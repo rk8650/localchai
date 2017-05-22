@@ -15,12 +15,33 @@
         $routeProvider
             .when('/',{
                 templateUrl: '/js/localchai/partials/groceryHome.html',
-                //controller: 'groceryHomeCtrl',
+                controller: 'groceryHomeCtrl',
                 resolve:{
                     orderGrocery:['$http',function($http){
-                        return  $http.post('/groceryhome.json');
+                        return  $http({
+                            url:   '/groceryhome.json',
+                            method: 'POST',
+                            headers:{
+                                'Content-Type':'appllication/x-www-form-urlencoded'
+                            }
+                        })
                     }]
                 }
             })
+            .when('/localGrocery',{
+                templateUrl:'/js/localchai/partials/localGrocery.html'
+                //controller:'localGroceryCtrl',
+                //resolve:{
+                //    localGrocery:['$http',function($http){
+                //        return $http({
+                //            url:'/localGrocery.json',
+                //            method:'POST',
+                //            headers:{
+                //                'Content-Type':'appllication/x-www-form-urlencoded'
+                //            }
+                //        })
+                //    }]
+                //}
+        })
     })
 })();

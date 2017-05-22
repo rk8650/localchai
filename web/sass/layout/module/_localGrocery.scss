@@ -1,0 +1,18 @@
+#localGrocery{
+  .shop-details{
+    div label{
+      margin-right:2em;
+    }
+    display: inline-block;
+    width:55%;
+    text-align: left;
+  }
+  div.circle-check{
+    cursor: pointer;
+    height:2em;
+    width: 2em;
+    border:1px solid red;
+    border-radius: 1em;
+    display: inline-block;
+  }
+}

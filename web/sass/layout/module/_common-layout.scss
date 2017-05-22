@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+header{
+  margin-top:2em;
+  p{
+    padding:1em;
+    font-size:1.5em;
+    color: #333333;
+    text-align: center;
+  }
+}
+//article{
+//  position: relative;
+//}
+footer{
+  //position: absolute;
+  //bottom:0;
+  margin-top: 5em;
+  text-align: center;
+  input[type=submit]{
+    padding: .5em;
+    font-size: 1.5em;
+    border-radius: .5em;
+  }
+}
+input[type=text][value]{
+  border: 1px solid #cccccc;
+}

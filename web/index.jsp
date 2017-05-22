@@ -13,15 +13,19 @@
     <script src="${pageContext.request.contextPath}/js/common/angular.js" ></script>
     <script src="${pageContext.request.contextPath}/js/common/angular-route.js" ></script>
     <script src="${pageContext.request.contextPath}/js/localchai/localchai.js" ></script>
-    <script src="${pageContext.request.contextPath}/js/localchai/controllers/localchai.controller.js"></script>
+    <script src="${pageContext.request.contextPath}/js/localchai/controllers/localChaiController.js"></script>
     <script src="${pageContext.request.contextPath}/js/localchai/controllers/modules/groceryHomeCtrl.js" ></script>
     <script src="${pageContext.request.contextPath}/js/localchai/controllers/modules/localGroceryCtrl.js" ></script>
     <script src="${pageContext.request.contextPath}/js/localchai/controllers/modules/orderGroceryCtrl.js" ></script>
+    <script src="${pageContext.request.contextPath}/js/localchai/controllers/modules/paymentGroceryCtrl.js" ></script>
     <script src="${pageContext.request.contextPath}/js/localchai/directive/localchai.directive.js" ></script>
     <script src="${pageContext.request.contextPath}/js/localchai/services/localchai.service.js" ></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/localchai.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div ng-app="localchai" ng-controller="localchaiCtrl">
+    <div id="localchai" ng-app="localchai" ng-controller="localchaiCtrl">
       <div ng-view></div>
     </div>
   </body>
