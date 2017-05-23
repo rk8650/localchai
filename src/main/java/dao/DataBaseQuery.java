@@ -29,7 +29,6 @@ public class DataBaseQuery {
                 shopDetails.setShopId(rs1.getString(1));
                 shopDetails.setShopName(rs1.getString(2));
                 shopDetails.setShopAddress(rs1.getString(3));
-
                 shopList.add(shopDetails);
             }
             while (rs2.next()) {

@@ -3,6 +3,7 @@ import main.java.beans.ItemDetails;
 import main.java.beans.ShopDetails;
 import main.java.dao.DataBaseQuery;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -21,5 +22,9 @@ public class AvailableShopsController {
         List<ShopDetails> shopList=new ArrayList<ShopDetails>();
         shopList=dbq.getAvailableShops();
         return shopList;
+    }
+    @RequestMapping(value ="/localGrocery.json", method = RequestMethod.GET, headers = "Accept=application/json,application/xml")
+    public ShopDetails showShopList(@RequestBody ShopDetails shopDetails)throws Exception{
+        return shopDetails;
     }
 }

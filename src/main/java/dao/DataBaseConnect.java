@@ -33,7 +33,6 @@ public class DataBaseConnect {
         {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             con= DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","rahul");
-            st=con.createStatement();
         }
         catch(Exception e)
         {
