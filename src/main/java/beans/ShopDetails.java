@@ -13,8 +13,6 @@ public class ShopDetails {
     private String shopId;
     private String shopName;
     private String shopAddress;
-//    private String itemName;
-//    private double itemPrice;
     List<ItemDetails> itemDetailsList = new ArrayList<ItemDetails>();
 
     public List<ItemDetails> getItemDetailsList() {
@@ -49,19 +47,4 @@ public class ShopDetails {
         this.shopAddress = shopAddress;
     }
 
-//    public String getItemName() {
-//        return itemName;
-//    }
-//
-//    public void setItemName(String itemName) {
-//        this.itemName = itemName;
-//    }
-//
-//    public double getItemPrice() {
-//        return itemPrice;
-//    }
-//
-//    public void setItemPrice(double itemPrice) {
-//        this.itemPrice = itemPrice;
-//
 }

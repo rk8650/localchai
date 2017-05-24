@@ -1,4 +1,5 @@
 package main.java.controllers;
+import main.java.beans.AvailableShops;
 import main.java.beans.ItemDetails;
 import main.java.beans.ShopDetails;
 import main.java.dao.DataBaseQuery;
@@ -24,7 +25,7 @@ public class AvailableShopsController {
         return shopList;
     }
     @RequestMapping(value ="/localGrocery.json", method = RequestMethod.GET, headers = "Accept=application/json,application/xml")
-    public ShopDetails showShopList(@RequestBody ShopDetails shopDetails)throws Exception{
-        return shopDetails;
+    public AvailableShops showShopList(@RequestBody AvailableShops availableShops)throws Exception{
+        return availableShops;
     }
 }

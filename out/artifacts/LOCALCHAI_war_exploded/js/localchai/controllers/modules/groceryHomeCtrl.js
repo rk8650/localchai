@@ -14,7 +14,7 @@
             //    method:'POST',
             //    url:''
             //});
-            $http.post('/createJson.json',createJson);
+            $http.get('/localGrocery.json',grocery);
         };
         window.nextStep=function(groceryHome){
             console.log("jhhnh b j h hj");

@@ -10,11 +10,14 @@
             $location.path(view);
         };
         $scope.postDetails=function(grocery){
-            //return  $http({
-            //    method:'POST',
-            //    url:''
-            //});
-            $http.post('/localGrocery.json',grocery);
+            return  $http({
+                url:   '/groceryhome.json',
+                method: 'POST',
+                headers:{
+                    'Content-Type':'appllication/x-www-form-urlencoded'
+                }
+            })
+            //$http.get('/localGrocery.json',grocery);
         };
         window.nextStep=function(groceryHome){
             console.log("jhhnh b j h hj");
