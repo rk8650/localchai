@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e88d70a6-c0ec-4db0-b578-b236b019f3a3" name="Default" comment="rk8650-local-chai-v1: step 1 grocery details searchbox, database connection error, grunt for css setup, step1 css design change">
+    <list default="true" id="e88d70a6-c0ec-4db0-b578-b236b019f3a3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/beans/AvailableShops.class" afterPath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/WEB-INF/classes/main/java/beans/AvailableShops.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/beans/AvailableShops.class" afterPath="$PROJECT_DIR$/out/production/LOCALCHAI/main/java/beans/AvailableShops.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/js/localchai/controllers/modules/groceryHomeCtrl.js" afterPath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/js/localchai/controllers/modules/groceryHomeCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/js/localchai/localchai.js" afterPath="$PROJECT_DIR$/out/artifacts/LOCALCHAI_war_exploded/js/localchai/localchai.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/beans/AvailableShops.java" afterPath="$PROJECT_DIR$/src/main/java/beans/AvailableShops.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/beans/ShopDetails.java" afterPath="$PROJECT_DIR$/src/main/java/beans/ShopDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java" afterPath="$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/localchai/controllers/modules/groceryHomeCtrl.js" afterPath="$PROJECT_DIR$/web/js/localchai/controllers/modules/groceryHomeCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/localchai/localchai.js" afterPath="$PROJECT_DIR$/web/js/localchai/localchai.js" />
     </list>
     <list id="0e0e9e33-e874-44d7-aa37-8c9db96e17a4" name="unused files" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/common/ie.css" afterPath="" />
@@ -71,11 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="groceryHomeCtrl.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="groceryHomeCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/js/localchai/controllers/modules/groceryHomeCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37658226">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -85,43 +87,24 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/beans/AvailableShops.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#292#305#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AvailableShopsController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AvailableShopsController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="localchai.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/localchai/localchai.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="26" selection-start-line="20" selection-start-column="24" selection-end-line="26" selection-end-column="26" />
-              <folding />
+            <state vertical-scroll-proportion="0.6460481">
+              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+              <folding>
+                <element signature="e#925#938#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,7 +169,6 @@
         <option value="$PROJECT_DIR$/web/sass/layout/module/_groceryHome.scss" />
         <option value="$PROJECT_DIR$/web/css/localchai.css" />
         <option value="$PROJECT_DIR$/web/sass/component/module/_input-element.scss" />
-        <option value="$PROJECT_DIR$/web/js/localchai/localchai.js" />
         <option value="$PROJECT_DIR$/web/sass/layout/_localchai-layout.scss" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/sass/localchai.scss" />
@@ -197,9 +179,10 @@
         <option value="$PROJECT_DIR$/src/main/java/dao/DataBaseConnect.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/DataBaseQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/beans/ShopDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/beans/AvailableShops.java" />
+        <option value="$PROJECT_DIR$/web/js/localchai/localchai.js" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java" />
         <option value="$PROJECT_DIR$/web/js/localchai/controllers/modules/groceryHomeCtrl.js" />
+        <option value="$PROJECT_DIR$/src/main/java/beans/AvailableShops.java" />
       </list>
     </option>
   </component>
@@ -288,7 +271,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -405,6 +387,7 @@
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1056,7 +1039,8 @@
       <workItem from="1495295015798" duration="4900000" />
       <workItem from="1495459259544" duration="6434000" />
       <workItem from="1495507038506" duration="1908000" />
-      <workItem from="1495594634394" duration="1043000" />
+      <workItem from="1495594634394" duration="1164000" />
+      <workItem from="1495820065454" duration="6496000" />
     </task>
     <task id="LOCAL-00001" summary="rk8650-local-chai-v1: new repository all files">
       <created>1491943575948</created>
@@ -1088,11 +1072,17 @@
       <option name="project" value="LOCAL" />
       <updated>1495508362974</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="rk8650-local-chai-v1: on submit json send to server">
+      <created>1495595718554</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1495595718554</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226893000" />
+    <option name="totallyTimeSpent" value="233510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1128,7 +1118,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4198988" sideWeight="0.5975794" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46205732" sideWeight="0.5975794" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1183,7 +1173,8 @@
     <MESSAGE value="rk8650-local-chai-v1: data fetching from table" />
     <MESSAGE value="rk8650-local-chai-v1: step 1 grocery details searchbox, database connection error, grunt for css setup, step1 css design change" />
     <MESSAGE value="rk8650-local-chai-v1: step1 on submit json return" />
-    <option name="LAST_COMMIT_MESSAGE" value="rk8650-local-chai-v1: step1 on submit json return" />
+    <MESSAGE value="rk8650-local-chai-v1: on submit json send to server" />
+    <option name="LAST_COMMIT_MESSAGE" value="rk8650-local-chai-v1: on submit json send to server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1192,13 +1183,13 @@
           <url>file://$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java</url>
           <line>28</line>
           <properties />
-          <option name="timeStamp" value="43" />
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="44" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1207,13 +1198,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/common/angular-route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/localchai/partials/paymentGrocery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384">
@@ -1535,10 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <marker date="1495475273400" expanded="true" signature="790:816" placeholder="SELECT * fro... SHOP_DETAILS" />
-            <marker date="1495475273400" expanded="true" signature="903:929" placeholder="SELECT * fro... ITEM_DETAILS" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1547,15 +1527,31 @@
         <state vertical-scroll-proportion="0.271012">
           <caret line="15" column="69" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="69" />
           <folding>
-            <element signature="e#348#361#0" expanded="true" />
+            <element signature="e#348#361#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/js/localchai/localchai.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.806962">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jackson-mapper-asl-1.9.2.jar!/org/codehaus/jackson/map/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.037037">
+          <caret line="1140" column="32" selection-start-line="1140" selection-start-column="32" selection-end-line="1140" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/localchai/controllers/modules/groceryHomeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="26" selection-start-line="20" selection-start-column="24" selection-end-line="26" selection-end-column="26" />
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1563,39 +1559,22 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/beans/AvailableShops.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#292#305#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/AvailableShopsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/localchai/controllers/modules/groceryHomeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37658226">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
+        <state vertical-scroll-proportion="0.6460481">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+          <folding>
+            <element signature="e#925#938#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

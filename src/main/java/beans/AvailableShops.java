@@ -11,7 +11,8 @@ import java.util.List;
 @Component
 public class AvailableShops {
     private String locality;
-    List<ItemDetails> itemDetailsList = new ArrayList<ItemDetails>();
+//    List<ItemDetails> itemDetailsList = new ArrayList<ItemDetails>();
+    private String item;
     private int quantity;
 
     public String getLocality() {
@@ -22,13 +23,21 @@ public class AvailableShops {
         this.locality = locality;
     }
 
-    public List<ItemDetails> getItemDetailsList() {
-        return itemDetailsList;
+    public String getItem() {
+        return item;
     }
 
-    public void setItemDetailsList(List<ItemDetails> itemDetailsList) {
-        this.itemDetailsList = itemDetailsList;
+    public void setItem(String item) {
+        this.item = item;
     }
+
+    //    public List<ItemDetails> getItemDetailsList() {
+//        return itemDetailsList;
+//    }
+
+//    public void setItemDetailsList(List<ItemDetails> itemDetailsList) {
+//        this.itemDetailsList = itemDetailsList;
+//    }
 
     public int getQuantity() {
         return quantity;

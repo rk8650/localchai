@@ -9,23 +9,27 @@
         $scope.changeView=function(view){
             $location.path(view);
         };
-        $scope.postDetails=function(grocery){
-            //return  $http({
-            //    method:'POST',
-            //    url:''
-            //});
-            $http.get('/localGrocery.json',grocery);
-        };
         window.nextStep=function(groceryHome){
             console.log("jhhnh b j h hj");
             if(groceryHome!=null && typeof groceryHome != undefined){
                 var grocery={};
-                grocery.locality=groceryHome[0];
-                grocery.item=groceryHome[1];
-                grocery.locality=groceryHome[2];
+                grocery.locality="wakad";
+                grocery.item="chai";
+                grocery.quantity=6;
                 $scope.postDetails(grocery);
                 $scope.changeView('/localGrocery');
             }
+        };
+        $scope.postDetails=function(grocery){
+
+            return  $http({
+                url:   '/localGrocery.json',
+                method: 'GET',
+                headers:{
+                    'Content-Type':'application/json'
+                },
+                data:grocery
+            })
         };
         $scope.orderGrocery=orderGrocery.data;
         $scope.setLocalityName=function(localityName){

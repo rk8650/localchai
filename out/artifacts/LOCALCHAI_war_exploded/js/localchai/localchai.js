@@ -22,7 +22,7 @@
                             url:   '/groceryhome.json',
                             method: 'POST',
                             headers:{
-                                'Content-Type':'appllication/x-www-form-urlencoded'
+                                'Content-Type':'application/x-www-form-urlencoded'
                             }
                         })
                     }]
