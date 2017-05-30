@@ -12,7 +12,7 @@
                 <ul><li ng-repeat="l in orderGrocery|searchBoxList2:searchItemName" ng-bind="l" ng-click="setItemName(l)"></li></ul>
             </div>
             <div>
-                <input type="number" id="quantity" class="input-design" name="quantity" placeholder="Quantity" />
+                <input type="number" id="quantity" class="input-design" ng-model="groceryQuantity" name="quantity" placeholder="Quantity" />
             </div>
         </article>
         <footer>

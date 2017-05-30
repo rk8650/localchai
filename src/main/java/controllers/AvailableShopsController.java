@@ -24,8 +24,12 @@ public class AvailableShopsController {
         shopList=dbq.getAvailableShops();
         return shopList;
     }
-    @RequestMapping(value ="/localGrocery.json", method = RequestMethod.GET, headers = "Accept=application/json,application/xml")
-    public AvailableShops showShopList(@RequestBody AvailableShops availableShops)throws Exception{
-        return availableShops;
+    @RequestMapping(value ="/localGrocery.json", method = RequestMethod.POST, headers = "Accept=application/json,application/xml")
+    @ResponseBody
+    public List<ShopDetails> showShopList(@RequestBody AvailableShops availableShops)throws Exception{
+        List<ShopDetails> shopDetailsList=new ArrayList<ShopDetails>();
+        shopDetailsList=dbq.getShopDetails(availableShops);
+
+        return shopDetailsList;
     }
 }

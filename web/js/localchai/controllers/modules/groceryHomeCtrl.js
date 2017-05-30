@@ -11,25 +11,30 @@
         };
         window.nextStep=function(groceryHome){
             console.log("jhhnh b j h hj");
-            if(groceryHome!=null && typeof groceryHome != undefined){
+            if(groceryHome!=null && typeof groceryHome != "undefined" && typeof $scope.groceryHome.itemName.$modelValue != "undefined"){
                 var grocery={};
-                grocery.locality="wakad";
-                grocery.item="chai";
-                grocery.quantity=6;
+                grocery.locality=$scope.groceryHome.localityName.$modelValue;
+                grocery.itemDetailsList=$scope.groceryHome.itemName.$modelValue.split(",");
+                grocery.quantity=$scope.groceryHome.quantity.$modelValue;
                 $scope.postDetails(grocery);
-                $scope.changeView('/localGrocery');
+
             }
         };
         $scope.postDetails=function(grocery){
 
             return  $http({
                 url:   '/localGrocery.json',
-                method: 'GET',
+                method: 'POST',
                 headers:{
                     'Content-Type':'application/json'
                 },
                 data:grocery
-            })
+            }).success(function(data,status){
+                $scope.changeView('/localGrocery');
+            });
+            //$http.get('/localGrocery.json',grocery);
+            //$http.setRequestHeader('Content-Type','application/json');
+            //$httpProvider.defaults.headers.get = { 'Content-Type':'application/json' }
         };
         $scope.orderGrocery=orderGrocery.data;
         $scope.setLocalityName=function(localityName){
