@@ -1,9 +1,10 @@
 <form id="localGrocery" name="localGrocery" onsubmit="nextStep(localGrocery);" autocomplete="off">
     <article>
         <div class="shop-details" ng-repeat="shop in shopDetails">
-            <h3>Shop Name 1</h3>
-            <div>
-                <label>Item 1</label>
+            <h3 ng-bind="shop.shopName"></h3>
+            <div ng-repeat="item in shopDetails.itemDetailsList">
+
+                <label ng-bind="item.itemName"></label>
                 <label>30 Rs.</label>
             </div>
             <div>
