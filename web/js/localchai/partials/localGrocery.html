@@ -2,29 +2,13 @@
     <article>
         <div class="shop-details" ng-repeat="shop in shopDetails">
             <h3 ng-bind="shop.shopName"></h3>
-            <div ng-repeat="item in shopDetails.itemDetailsList">
-
+            <div ng-repeat="item in shop.itemDetailsList">
                 <label ng-bind="item.itemName"></label>
-                <label>30 Rs.</label>
+                <label ng-bind="item.itemPrice"></label>
+                <input type="checkbox" name="selectItem" ng-attr-id="{{ 'selectItem-' + $parent.$index +'-'+ $index }}">
             </div>
-            <div>
-                <label>Item 2</label>
-                <label>10 Rs.</label>
-            </div>
+            <div class="circle-check"></div>
         </div>
-        <!--<div class="circle-check"></div>-->
-        <!--<div class="shop-details">-->
-            <!--<h3>Shop Name 2</h3>-->
-            <!--<div>-->
-                <!--<label>Item 3</label>-->
-                <!--<label>40 Rs.</label>-->
-            <!--</div>-->
-            <!--<div>-->
-                <!--<label>Item 4</label>-->
-                <!--<label>20 Rs.</label>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="circle-check">&#10004;</div>-->
     </article>
     <footer>
         <input type="submit" value="Order" id="orderLocalGrocery" />
