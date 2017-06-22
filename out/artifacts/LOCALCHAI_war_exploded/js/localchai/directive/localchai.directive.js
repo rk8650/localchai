@@ -15,8 +15,8 @@
             var result=[];
             searchLocalityName=searchLocalityName.toLowerCase();
             angular.forEach(arr,function(orderGrocery){
-                if (orderGrocery.shopId.toLowerCase().indexOf(searchLocalityName)!==-1){
-                    result.push(orderGrocery.shopId);
+                if (orderGrocery.shopLocality.toLowerCase().indexOf(searchLocalityName)!==-1){
+                    result.push(orderGrocery.shopLocality);
                 }
             });
             return result;
@@ -35,7 +35,7 @@
             angular.forEach(arr,function(orderGrocery){
                 //if()
                 if (orderGrocery.itemDetailsList[0].itemId.toLowerCase().indexOf(searchItemName)!==-1){
-                    result.push(orderGrocery.itemDetailsList[0].itemId);
+                    result.push(orderGrocery.itemDetailsList[0].itemName);
                 }
             });
             return result;

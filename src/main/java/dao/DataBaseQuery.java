@@ -30,6 +30,7 @@ public class DataBaseQuery {
                 shopDetails.setShopId(rs1.getString(1));
                 shopDetails.setShopName(rs1.getString(2));
                 shopDetails.setShopAddress(rs1.getString(3));
+                shopDetails.setShopLocality(rs1.getString(4));
                 shopList.add(shopDetails);
             }
             while (rs2.next()) {
@@ -61,35 +62,45 @@ public class DataBaseQuery {
     }
     public List<ShopDetails> getShopDetails(AvailableShops availableShops)throws Exception,NullPointerException{
         List<ShopDetails> shopDetailsList=new ArrayList<ShopDetails>();
-        ArrayList shopIdList=new ArrayList();
+        List<ShopDetails> shopDetailsList1=new ArrayList<ShopDetails>();
         ArrayList itemList=new ArrayList();
         String locality=availableShops.getLocality();
         itemList=availableShops.getItemDetailsList();
         Connection connection=DataBaseConnect.openConnection();
         try {
             ResultSet resultSet = DataBaseConnect.getStatement(connection).executeQuery("SELECT * FROM SHOP_DETAILS WHERE SHOP_LOCALITY='" + locality + "'");
-            ShopDetails shopDetails = new ShopDetails();
             while (resultSet.next()) {
-                shopIdList.add(resultSet.getString(1));
-                shopDetails.setShopName(resultSet.getString(2));
+                ShopDetails shopDetails1 = new ShopDetails();
+                shopDetails1.setShopId(resultSet.getString(1));
+                shopDetails1.setShopName(resultSet.getString(2));
+                shopDetails1.setShopAddress(resultSet.getString(3));
+                shopDetails1.setShopLocality(resultSet.getString(4));
+                shopDetailsList.add(shopDetails1);
             }
             ResultSet resultSet1 = null;
-            for (int i = 0; i < shopIdList.size(); i++) {
-                for (int j = i; j < itemList.size(); j++) {
-                    resultSet1 = DataBaseConnect.getStatement(connection).executeQuery("SELECT * FROM ITEM_DETAILS WHERE ITEM_SHOP_ID='" + shopIdList.get(i) + "' AND ITEM_NAME='" + itemList.get(i) + "'");
-                }
-            }
-            ArrayList itemDetails1 = new ArrayList();
-            while (resultSet1.next()) {
-                shopDetails.setShopId(resultSet1.getString(5));
-                //            shopDetails;
-                itemDetails1.add(resultSet1.getString(1));
-                itemDetails1.add(resultSet1.getString(2));
-                itemDetails1.add(resultSet1.getString(3));
-                itemDetails1.add(resultSet1.getString(4));
-                shopDetails.setItemDetailsList(itemDetails1);
+            for (int i = 0; i < shopDetailsList.size(); i++) {//shop list of particular locality
+                ShopDetails shopDetails=new ShopDetails();
+                for (int j = i; j < itemList.size(); j++) {// item list
+                    ItemDetails itemDetails=new ItemDetails();
+                    resultSet1 = DataBaseConnect.getStatement(connection).executeQuery("SELECT * FROM ITEM_DETAILS WHERE ITEM_SHOP_ID='" + shopDetailsList.get(i).getShopId() + "' AND ITEM_NAME='" + itemList.get(j) + "'");
+                    while (resultSet1.next()) {
+                        itemDetails.setItemId(resultSet1.getString(1));
+                        itemDetails.setItemName(resultSet1.getString(2));
+                        itemDetails.setItemPrice(resultSet1.getString(3));
+                        itemDetails.setItemQuantity(resultSet1.getString(4));
+                        itemDetails.setItemShopId(resultSet1.getString(5));
 
-                shopDetailsList.add(shopDetails);
+                        if(resultSet1.getString(5).equals(shopDetailsList.get(i).getShopId())){
+                            shopDetails.setShopId(shopDetailsList.get(i).getShopId());
+                            shopDetails.setShopName(shopDetailsList.get(i).getShopName());
+                            shopDetails.setShopAddress(shopDetailsList.get(i).getShopAddress());
+                            shopDetails.setShopLocality(shopDetailsList.get(i).getShopLocality());
+                            shopDetails.getItemDetailsList().add(itemDetails);
+                        }
+                        shopDetailsList1.add(shopDetails);
+                    }
+
+                }
             }
         }catch (Exception e){
             e.printStackTrace();
@@ -97,6 +108,6 @@ public class DataBaseQuery {
         finally {
             DataBaseConnect.closeConnection(connection);
         }
-        return shopDetailsList;
+        return shopDetailsList1;
     }
 }

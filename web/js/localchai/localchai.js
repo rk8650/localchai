@@ -29,8 +29,8 @@
                 }
             })
             .when('/localGrocery',{
-                templateUrl:'/js/localchai/partials/localGrocery.html'
-                //controller:'localGroceryCtrl',
+                templateUrl:'/js/localchai/partials/localGrocery.html',
+                controller:'localGroceryCtrl'
                 //resolve:{
                 //    localGrocery:['$http',function($http){
                 //        return $http({

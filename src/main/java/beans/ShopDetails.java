@@ -13,6 +13,7 @@ public class ShopDetails {
     private String shopId;
     private String shopName;
     private String shopAddress;
+    private String shopLocality;
     List<ItemDetails> itemDetailsList = new ArrayList<ItemDetails>();
 
     public List<ItemDetails> getItemDetailsList() {
@@ -47,4 +48,11 @@ public class ShopDetails {
         this.shopAddress = shopAddress;
     }
 
+    public String getShopLocality() {
+        return shopLocality;
+    }
+
+    public void setShopLocality(String shopLocality) {
+        this.shopLocality = shopLocality;
+    }
 }

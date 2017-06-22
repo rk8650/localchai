@@ -3,7 +3,7 @@
  */
 (function(){
     var app=angular.module('groceryHomeCtrl',[]);
-    app.controller('groceryHomeCtrl',['$scope','$http','$location','orderGrocery',function($scope,$http,$location,orderGrocery){
+    app.controller('groceryHomeCtrl',['$scope','$rootScope','$http','$location','orderGrocery',function($scope,$rootScope,$http,$location,orderGrocery){
         console.log("my nam ie");
         $scope.pageName='grocery home page';
         $scope.changeView=function(view){
@@ -17,11 +17,9 @@
                 grocery.itemDetailsList=$scope.groceryHome.itemName.$modelValue.split(",");
                 grocery.quantity=$scope.groceryHome.quantity.$modelValue;
                 $scope.postDetails(grocery);
-
             }
         };
         $scope.postDetails=function(grocery){
-
             return  $http({
                 url:   '/localGrocery.json',
                 method: 'POST',
@@ -30,6 +28,7 @@
                 },
                 data:grocery
             }).success(function(data,status){
+                $rootScope.shopDetails=data;
                 $scope.changeView('/localGrocery');
             });
             //$http.get('/localGrocery.json',grocery);
