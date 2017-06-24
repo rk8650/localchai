@@ -4,18 +4,18 @@
         </header>
         <article id="groceryHome">
             <div>
-                <input type="text" id="locality" ng-model="searchLocalityName" class="input-design" name="localityName" placeholder="Locality Name"/>
-                <ul><li ng-repeat="l in orderGrocery|searchBoxList1:searchLocalityName track by $index" ng-bind="l" ng-click="setLocalityName(l)"></li></ul>
+                <input type="text" id="locality" ng-model="grocery.locality" class="input-design" placeholder="Locality Name"/>
+                <ul><li ng-repeat="l in orderGrocery|searchBoxList1:grocery.locality track by $index" ng-bind="l" ng-click="setLocalityName(l)"></li></ul>
             </div>
             <div>
-                <input type="text" id="item" class="input-design" ng-model="searchItemName" name="itemName" placeholder="Item Name"/>
-                <ul><li ng-repeat="l in orderGrocery|searchBoxList2:searchItemName track by $index" ng-bind="l" ng-click="setItemName(l)"></li></ul>
+                <input type="text" id="item" class="input-design" ng-model="grocery.itemDetailsList" name="itemName" placeholder="Item Name"/>
+                <ul><li ng-repeat="l in orderGrocery|searchBoxList2:grocery.itemDetailsList track by $index" ng-bind="l" ng-click="setItemName(l)"></li></ul>
             </div>
             <div>
-                <input type="number" id="quantity" class="input-design" ng-model="groceryQuantity" name="quantity" placeholder="Quantity" />
+                <input type="number" id="quantity" class="input-design" ng-model="grocery.quantity"  placeholder="Quantity" />
             </div>
         </article>
         <footer>
-            <input type="submit" id="groceryHomeSubmit" value="Available shops" />
+            <input type="submit" id="groceryHomeSubmit" value="Available shops" ng-click="submitData(grocery)"/>
         </footer>
     </form>

@@ -9,14 +9,18 @@
         $scope.changeView=function(view){
             $location.path(view);
         };
+        var groceryData={};
+        $scope.submitData=function(grocery){
+            grocery.itemDetailsList=grocery.itemDetailsList.split(",");
+            groceryData=angular.copy(grocery);
+        };
+        /*grocery.locality=$scope.groceryHome.localityName.$modelValue;
+        grocery.itemDetailsList=$scope.groceryHome.itemName.$modelValue.split(",");
+        grocery.quantity=$scope.groceryHome.quantity.$modelValue;*/
         window.nextStep=function(groceryHome){
             console.log("jhhnh b j h hj");
             if(groceryHome!=null && typeof groceryHome != "undefined" && typeof $scope.groceryHome.itemName.$modelValue != "undefined"){
-                var grocery={};
-                grocery.locality=$scope.groceryHome.localityName.$modelValue;
-                grocery.itemDetailsList=$scope.groceryHome.itemName.$modelValue.split(",");
-                grocery.quantity=$scope.groceryHome.quantity.$modelValue;
-                $scope.postDetails(grocery);
+                $scope.postDetails(groceryData);
             }
         };
         $scope.postDetails=function(grocery){
@@ -26,7 +30,7 @@
                 headers:{
                     'Content-Type':'application/json'
                 },
-                data:grocery
+                data:groceryData
             }).success(function(data,status){
                 $rootScope.shopDetails=data;
                 $scope.changeView('/localGrocery');

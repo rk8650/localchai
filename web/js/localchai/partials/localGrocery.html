@@ -3,11 +3,11 @@
         <div class="shop-details" ng-repeat="shop in shopDetails">
             <h3 ng-bind="shop.shopName"></h3>
             <div ng-repeat="item in shop.itemDetailsList">
-                <label ng-bind="item.itemName"></label>
+                <label ng-bind="item.itemName" ></label>
                 <label ng-bind="item.itemPrice"></label>
                 <input type="checkbox" name="selectItem" ng-attr-id="{{ 'selectItem-' + $parent.$index +'-'+ $index }}">
             </div>
-            <div class="circle-check"></div>
+            <!--<div class="circle-check"></div>-->
         </div>
     </article>
     <footer>
