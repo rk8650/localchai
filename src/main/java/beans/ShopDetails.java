@@ -14,13 +14,31 @@ public class ShopDetails {
     private String shopName;
     private String shopAddress;
     private String shopLocality;
-    List<ItemDetails> itemDetailsList = new ArrayList<ItemDetails>();
+    ArrayList itemDetailsList = new ArrayList();
+    ArrayList selectedItemlist = new ArrayList();
+    private double totalAmount;
 
-    public List<ItemDetails> getItemDetailsList() {
+    public double getTotalAmount() {
+        return totalAmount;
+    }
+
+    public void setTotalAmount(double totalAmount) {
+        this.totalAmount = totalAmount;
+    }
+
+    public ArrayList getSelectedItemlist() {
+        return selectedItemlist;
+    }
+
+    public void setSelectedItemlist(ArrayList selectedItemlist) {
+        this.selectedItemlist = selectedItemlist;
+    }
+
+    public ArrayList getItemDetailsList() {
         return itemDetailsList;
     }
 
-    public void setItemDetailsList(List<ItemDetails> itemDetailsList) {
+    public void setItemDetailsList(ArrayList itemDetailsList) {
         this.itemDetailsList = itemDetailsList;
     }
 

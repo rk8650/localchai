@@ -1,6 +1,5 @@
 package main.java.dao;
 
-import main.java.beans.AvailableShops;
 import main.java.beans.ItemDetails;
 import main.java.beans.ShopDetails;
 
@@ -60,12 +59,12 @@ public class DataBaseQuery {
         }
         return shopList;
     }
-    public List<ShopDetails> getShopDetails(AvailableShops availableShops)throws Exception,NullPointerException{
+    public List<ShopDetails> getShopDetails(ShopDetails shopDetails)throws Exception,NullPointerException{
         List<ShopDetails> shopDetailsList=new ArrayList<ShopDetails>();
         List<ShopDetails> shopDetailsList1=new ArrayList<ShopDetails>();
-        ArrayList itemList=new ArrayList();
-        String locality=availableShops.getLocality();
-        itemList=availableShops.getItemDetailsList();
+        List<ItemDetails> itemList=new ArrayList<ItemDetails>();
+        String locality=shopDetails.getShopLocality();
+        itemList=shopDetails.getItemDetailsList();
         Connection connection=DataBaseConnect.openConnection();
         try {
             ResultSet resultSet = DataBaseConnect.getStatement(connection).executeQuery("SELECT * FROM SHOP_DETAILS WHERE SHOP_LOCALITY='" + locality + "'");
@@ -79,7 +78,7 @@ public class DataBaseQuery {
             }
             ResultSet resultSet1 = null;
             for (int i = 0; i < shopDetailsList.size(); i++) {//shop list of particular locality
-                ShopDetails shopDetails=new ShopDetails();
+                ShopDetails shopDetails2=new ShopDetails();
                 for (int j = i; j < itemList.size(); j++) {// item list
                     ItemDetails itemDetails=new ItemDetails();
                     resultSet1 = DataBaseConnect.getStatement(connection).executeQuery("SELECT * FROM ITEM_DETAILS WHERE ITEM_SHOP_ID='" + shopDetailsList.get(i).getShopId() + "' AND ITEM_NAME='" + itemList.get(j) + "'");
@@ -91,13 +90,13 @@ public class DataBaseQuery {
                         itemDetails.setItemShopId(resultSet1.getString(5));
 
                         if(resultSet1.getString(5).equals(shopDetailsList.get(i).getShopId())){
-                            shopDetails.setShopId(shopDetailsList.get(i).getShopId());
-                            shopDetails.setShopName(shopDetailsList.get(i).getShopName());
-                            shopDetails.setShopAddress(shopDetailsList.get(i).getShopAddress());
-                            shopDetails.setShopLocality(shopDetailsList.get(i).getShopLocality());
-                            shopDetails.getItemDetailsList().add(itemDetails);
+                            shopDetails2.setShopId(shopDetailsList.get(i).getShopId());
+                            shopDetails2.setShopName(shopDetailsList.get(i).getShopName());
+                            shopDetails2.setShopAddress(shopDetailsList.get(i).getShopAddress());
+                            shopDetails2.setShopLocality(shopDetailsList.get(i).getShopLocality());
+                            shopDetails2.getItemDetailsList().add(itemDetails);
                         }
-                        shopDetailsList1.add(shopDetails);
+                        shopDetailsList1.add(shopDetails2);
                     }
 
                 }

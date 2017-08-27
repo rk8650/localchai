@@ -1,15 +1,17 @@
 package main.java.beans;
 
+import org.springframework.stereotype.Component;
+
 /**
  * Created by rahul on 4/5/2017.
  */
+@Component
 public class ItemDetails {
     private String itemId;
     private String itemName;
     private String itemPrice;
     private String itemQuantity;
     private String itemShopId;
-    //private ShopDetails shopDetails;
 
     public String getItemShopId() {
         return itemShopId;

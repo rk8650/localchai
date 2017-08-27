@@ -1,16 +1,15 @@
-<form id="localGrocery" name="localGrocery" onsubmit="nextStep(localGrocery);" autocomplete="off">
+<form id="localGrocery" name="localGrocery" autocomplete="off">
     <article>
-        <div class="shop-details" ng-repeat="shop in shopDetails">
+        <div class="shop-details" ng-repeat="shop in orderGrocery track by $index">
             <h3 ng-bind="shop.shopName"></h3>
-            <div ng-repeat="item in shop.itemDetailsList">
+            <div ng-repeat="item in shop.itemDetailsList track by $index">
                 <label ng-bind="item.itemName" ></label>
-                <label ng-bind="item.itemPrice"></label>
-                <input type="checkbox" name="selectItem" ng-attr-id="{{ 'selectItem-' + $parent.$index +'-'+ $index }}">
+                <label ng-bind="item.itemPrice"></label>{{$parent.$index}}
+                <input class="item-checkbox" type="checkbox" name="selectItem" ng-model="model.selectedItemlist[$parent.$index]" ng-attr-id="{{ item.itemId}}">
             </div>
-            <!--<div class="circle-check"></div>-->
         </div>
     </article>
     <footer>
-        <input type="submit" value="Order" id="orderLocalGrocery" />
-    </footer>
+        <input type="submit" value="Order" id="orderLocalGrocery" ng-click="submit()" />
+    </footer> 
 </form>

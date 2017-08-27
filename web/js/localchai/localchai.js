@@ -31,17 +31,10 @@
             .when('/localGrocery',{
                 templateUrl:'/js/localchai/partials/localGrocery.html',
                 controller:'localGroceryCtrl'
-                //resolve:{
-                //    localGrocery:['$http',function($http){
-                //        return $http({
-                //            url:'/localGrocery.json',
-                //            method:'POST',
-                //            headers:{
-                //                'Content-Type':'appllication/x-www-form-urlencoded'
-                //            }
-                //        })
-                //    }]
-                //}
-        })
+            })
+            .when('/confirmation',{
+                templateUrl:'/js/localchai/partials/orderGrocery.html',
+                controller:'orderGroceryCtrl'
+            })
     })
 })();
