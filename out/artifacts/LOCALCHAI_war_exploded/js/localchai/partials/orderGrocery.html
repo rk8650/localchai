@@ -1,10 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<form ng-model="form" name="form" autocomplete="off">
+    <h2>
+        <mark>Confirmation</mark>
+    </h2>
+    <article>
+        <div>
+            <h4>your order id is : </h4>
+        </div>
+        <div class="confirm-order-block">
+            <input type="text" class="email" placeholder="Email Id"/>
+            <input type="text" class="phone-number" placeholder="Phone Number"/>
+        </div>
+        <div>
+            <input type="submit" class="confirm-order" value="Confirm Order" ng-click="submit()"/>
+        </div>
+    </article>
+</form>

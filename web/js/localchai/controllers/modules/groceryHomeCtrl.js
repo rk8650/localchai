@@ -7,29 +7,6 @@
         $scope.changeView=function(view){
             $location.path(view);
         };
-        //var groceryData={};
-        //$scope.submitData=function(grocery){
-        //    grocery.itemDetailsList=grocery.itemDetailsList.split(",");
-        //    groceryData=angular.copy(grocery);
-        //};
-        //window.nextStep=function(groceryHome){
-        //    if(groceryHome!=null && typeof groceryHome != "undefined" && typeof $scope.groceryHome.itemName.$modelValue != "undefined"){
-        //        $scope.postDetails(groceryData);
-        //    }
-        //};
-        //$scope.postDetails=function(grocery){
-        //    return  $http({
-        //        url:   '/localGrocery.json',
-        //        method: 'POST',
-        //        headers:{
-        //            'Content-Type':'application/json'
-        //        },
-        //        data:groceryData
-        //    }).success(function(data,status){
-        //        $rootScope.shopDetails=data;
-        //        $scope.changeView('/localGrocery');
-        //    });
-        //};
         $scope.orderGrocery=orderGrocery.data;
         $scope.setLocalityName=function(localityName){
             var locality=document.getElementById("locality").value;
@@ -63,7 +40,9 @@
     }])
     app.controller('orderGroceryCtrl',['$scope','$rootScope','$http','$location','localChaiService',function($scope,$rootScope,$http,$location,localChaiService){
         $scope.submit=function(){
+            localChaiService.validateApplicationStep3().then(function(data){
 
+            })
         }
     }])
 })();
